@@ -2,8 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
 
-import streamlit as st
-
 histo_item_df = pd.read_csv("histo_item.csv")
 pie_df = pd.read_csv("pie.csv")
 
